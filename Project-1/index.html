@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="spotify.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6648eb68fb.js" crossorigin="anonymous"></script>
+    <script defer src="index.js"></script>
+    <title>Spotify-clone</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="navbar"><a class="spotBar" href="/">Home</a></li>
+            <li class="navbar"><a class="spotBar" href="/">About</a></li>
+            <li class="navbar"><a class="spotBar" href="/">Songs</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        
+            <div class="music">
+                <!-- <img src="Srk-img.jpg" alt="" class="pht"> -->
+
+                <div class="list ">
+                    <img src="Srk-img.jpg" alt="1" class="listImg">
+                    <span class="txt"><b>Chaleya</b></span>
+                </div>
+                <div class="list">
+                    <img src="Srk-img.jpg" alt="1" class="listImg">
+                    <span class="txt"><b>Chaleya</b></span>
+                </div>
+                <div class="list">
+                    <img src="Srk-img.jpg" alt="1" class="listImg">
+                    <span class="txt"><b>Chaleya</b></span>
+                </div>
+                <div class="list">
+                    <img src="Srk-img.jpg" alt="1" class="listImg">
+                    <span class="txt"><b>Chaleya</b></span>
+                </div>
+                <div class="list">
+                    <img src="Srk-img.jpg" alt="1" class="listImg">
+                    <span class="txt"><b>Chaleya</b></span>
+                </div>
+            
+        </div>
+
+    </div>
+    <div class="botton">
+
+        <input type="range" id="progress"  value="0">
+        <div id="play" class="play">
+            <i class="btn fa-solid fa-backward fa-xl"></i>
+            <i class="btn fa-solid fa-play-circle fa-xl" onclick="player()" id="PauPlay"></i>
+            <i class="btn fa-solid fa-forward fa-xl"></i>
+        </div>
+    </div>
+
+    
+</body>
+</html>

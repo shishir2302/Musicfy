@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: gray;
+}
+nav{
+    background-color: black;
+    float: left;
+    width: 280px;
+    height: 750px;
+}
+.head{
+    color: wheat;
+    font-size: 30px;
+    margin-bottom: 55px;
+}
+
+.img{
+    margin-top: 10px;
+    width: 50px;
+}
+
+ul{
+    list-style-type: none;
+    /* color: azure; */
+    
+}
+.navbar{
+    
+    margin-bottom: 110px;
+}
+.spotBar{
+    text-align: center;
+    text-decoration: none;
+    color: wheat;
+    font-size: 30px;
+    margin: 100px;
+    
+    /* padding: 36px; */
+}
+.container{
+ float: left; 
+ background-image: url(Srk-img.jpg);  
+ height: 85vh;
+ width: 80vw;
+}
+.list{
+    display: flex;
+    clear: both;
+    width: 400px;
+    justify-content: space-between;
+    margin: 15px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+.txt{
+    margin-right: 15px;
+}
+.listImg{
+    height: 35px;
+    border-radius: 30px;
+}
+.play{
+    margin: 15px;
+}
+.btn{
+    cursor: pointer;
+    margin: 20px;
+}
+.play{
+    display: flex;
+    justify-content: center;
+}
+
+#progress{
+    width: 80vw;
+    margin-top: 10px;
+    cursor: pointer;
+    /* margin: 5px; */
+    /* background-color: black; */
+}
